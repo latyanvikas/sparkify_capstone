@@ -18,14 +18,16 @@ I have picked sparkify as my final project for data science nano-degree capstone
 # Project Motivation <a name="motivation"></a>
 We will be predicting the churn for the customers those are using sparkify streaming services. We have been provided with a large data sets of 12 GB for the users who have been using sparkify, however, I will be using a subset of this data.
 
+Essential skills that I have learned through this project are
+
 * Essential skills that I have learned through this project are
 * Load large datasets into Spark and manipulate them using Spark SQL and Spark Data frames
 * Use the machine learning APIs within Spark ML to build and tune models
 * Integrate the skills you’ve learned in the Spark course and the Data Scientist Nanodegree program
 
-Initially it was quite challenging to build ML algorithms using spark as I was doing it for the first time. I have been using spark from quite some time, I found it was easy to the feature engineering. This project has given me further insights as how we can do complex data engineering tasks and build the ML algorithms using spark. It’s going to be really useful for me as I don’t have depend on scikit-learn to implement ML algorithms.
+Initially it was quite challenging to build ML algorithms using spark as I was doing it for the first time. I have been using spark from quite some time, I found it was easy to build features using spark. This project has given me further insights as how we can do complex data engineering tasks and build the ML algorithms using spark. It’s going to be really useful for me as I don’t have depend on scikit-learn to implement ML algorithms.
 
-# ibraries Used <a name="library"></a>
+# Libraries Used <a name="library"></a>
 
 In order to build the sparkify churn model, I have used followin libraries
 
@@ -63,14 +65,14 @@ As an objective of this project, we have successfully used spark to load the dat
 
 As we can see Random Forest has the precision of .78 but the lower AUC of .32. Gradient Boosted Trees is having lower precision of .65, however the higher AUC of .59. SVM & Logistic regression model is performing on the similar lines as Random forest when we look into the precision, however, SVM has higher AUC of .43 than others. I am recommending Support Vector Machine model as it has higher precision, F1 score and AUC compare to others.
 
-Support Vector Machine -> PR AUC: 0.43934267486899065
-Support Vector Machine
- | precision = 0.782608695652174
- | recall = 0.782608695652174
- | F1-Score = 0.782608695652174
+Support Vector Machine 
+* PR AUC: 0.43934267486899065
+* precision = 0.782608695652174
+* recall = 0.782608695652174
+* F1-Score = 0.782608695652174
 
 
-The main findings of the code can be found at the post available [here](https://vikaslatyan.medium.com/sparkify-churn-model-3a1046bcebec).
+The main findings of the code can be found at the blog post available [here](https://vikaslatyan.medium.com/sparkify-churn-model-3a1046bcebec).
 
 # Licensing, Authors, Acknowledgements <a name="final"></a>
 
