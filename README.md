@@ -16,9 +16,9 @@ I have picked sparkify as my final project for data science nano-degree capstone
 
 1. Loading and Cleaning the data
 2. Exploratory data analysis
-    Defining Churn
-    Exploring the data
-3. Feature Engineering
+    * Defining Churn
+    * Exploring the data
+3. Feature Engineering - Building number of features form given dataset
 4. Modelling — Test out several of the machine learning algorithm
 
 # Files <a name="files"></a>
